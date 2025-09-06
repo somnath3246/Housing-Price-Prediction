@@ -1,8 +1,20 @@
 In this project, we will analyze the pricing of houses in King county, USA. 
 The project focuses on performing end-to-end data analysis using Python, starting from data wrangling to exploratory data analysis, visualization, statistical testing, and predictive modeling.
+
+The project uses a variety of Python libraries for data analysis and visualization:
+1) NumPy → Mathematical operations & arrays
+2) Pandas → Data wrangling & preprocessing
+3) Matplotlib → Basic data visualization
+4) Seaborn → Advanced statistical visualizations
+5) Scikit-learn → Machine learning & regression models
+6) SciPy / Statsmodels → Statistical testing
 The workflow begins with data wrangling, where missing values are handled, categorical variables are converted to numerical form, and features are normalized and scaled for better performance. After cleaning, the process moves into exploratory data analysis (EDA) where I calculated summary statistics, studied variable distributions, and identified relationships among features using correlation heatmaps and scatterplots. Outliers were examined, and patterns in the data were uncovered to gain a deeper understanding before modeling.
+
 For data visualization, I used Matplotlib and Seaborn to create histograms, bar charts, boxplots, and regression plots that effectively highlight the relationships between predictors and the target variable. Visualizations not only supported the EDA but also made it easier to communicate insights in a clear and intuitive manner.
+
 In the model development phase, I built and compared different regression models including simple linear regression, multiple linear regression, polynomial regression, and ridge regression. The models were trained using Scikit-learn and evaluated based on R² and Mean Squared Error (MSE). Cross-validation techniques were applied to ensure that the results were consistent and not overly dependent on a single data split. Through this process, I identified the best-performing model and interpreted its results to extract meaningful insights about the dataset.
+
 The project concludes with model evaluation and results interpretation, where I compared the performance of different models, visualized prediction errors, and summarized the most important factors that influenced the target variable. The analysis demonstrated the importance of data preprocessing and feature engineering in improving the accuracy of predictive models.
+
 Overall, this project helped me strengthen my practical skills in Python-based data analysis. I gained experience in using libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn, and developed confidence in applying them to real-world datasets. Beyond coding, I also practiced the full analytical thinking process—cleaning data, exploring patterns, testing assumptions, building models, and interpreting results. This project stands as a portfolio piece to showcase my ability to conduct structured and insightful data analysis, and it highlights my readiness to apply these techniques in professional data-driven roles.
 Thank You.
