@@ -1,4 +1,4 @@
-In this project, we will analyze the pricing of houses in King county, USA. 
+In this project, we will **analyze the pricing of houses** in King county, USA. 
 The project focuses on performing end-to-end data analysis using Python, starting from data wrangling to exploratory data analysis, visualization, statistical testing, and predictive modeling.
 
 The project uses a variety of Python libraries for data analysis and visualization:
@@ -8,6 +8,7 @@ The project uses a variety of Python libraries for data analysis and visualizati
 4) Seaborn → Advanced statistical visualizations
 5) Scikit-learn → Machine learning & regression models
 6) SciPy / Statsmodels → Statistical testing
+
 The workflow begins with data wrangling, where missing values are handled, categorical variables are converted to numerical form, and features are normalized and scaled for better performance. After cleaning, the process moves into exploratory data analysis (EDA) where I calculated summary statistics, studied variable distributions, and identified relationships among features using correlation heatmaps and scatterplots. Outliers were examined, and patterns in the data were uncovered to gain a deeper understanding before modeling.
 
 For data visualization, I used Matplotlib and Seaborn to create histograms, bar charts, boxplots, and regression plots that effectively highlight the relationships between predictors and the target variable. Visualizations not only supported the EDA but also made it easier to communicate insights in a clear and intuitive manner.
